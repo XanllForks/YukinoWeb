@@ -10,6 +10,4 @@ All the topics are visible on the left sidebar (top on mobile). All the pace con
 You can use the search bar to navigate around easily. Feel free to ask on my Discord server if its nowhere to be found.
 
 ## Links
-
--   [Discord](/)
 -   [GitHub](https://github.com/BlaNKtext/YukinoCustom)

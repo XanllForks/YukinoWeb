@@ -10,7 +10,6 @@ export const scrollToDownloads = () => {
 export const constants = {
     urls: {
         baseUrl: import.meta.env.BASE_URL,
-        guides: `${import.meta.env.BASE_URL}guides/index.html`,
-        discord: `${import.meta.env.BASE_URL}discord.html`,
+        guides: `${import.meta.env.BASE_URL}guides/`
     },
 };

@@ -59,27 +59,14 @@
                          :href="guidesUrl" target="_blank"><span class="mr-1">
                         <Icon icon="book-open"/></span>
                     Guide</a>
-                <a class="
-                          bg-blue-700
-                          hover:bg-blue-800
-                          px-5
-                          py-2
-                          rounded-lg
-                          shadow-lg
-                          transition
-                          duration-300"
-                          :href="discordInvite" target="_blank"><span class="mr-1">
-                        <Icon :icon="['fab', 'discord']"/></span>
-                    Discord</a>
                </div>
            </div>
       </article>
     <div class="text-gray-700 text-center mx-8 md:mx-20 my-16">
         <p class="text-lg">
-            The project's name <strong>Yukino</strong> meaning
-            <strong>Snow</strong> re-named because
-            <strong>Haneko</strong>
-            sounded terrible.
+            The project's name <strong>Haneko</strong> has been switched to
+            <strong>Yukino</strong> meaning
+            <strong>Snow</strong> because Haneko sounded terrible.
         </p>
         <p class="mt-10 text-red-500 font-bold">
             I do not support piracy nor run/serve any illegal or
@@ -216,16 +203,6 @@
                           transition
                           duration-300"
                           :href="guidesUrl">guides</a>
-                or join our
-                <a class="
-                          text-indigo-500
-                          hover:text-indigo-600
-                          font-bold
-                          transition
-                          duration-300"
-                          :href="discordInvite" target="_blank">discord
-                      </a>
-                for support!
             </p>
         </div>
     </div>
@@ -314,7 +291,7 @@ export default defineComponent({
                 {
                     icon: "map-marker-alt",
                     headline: "Source",
-                    text: "Scrapes data from multiple sites including 4Anime, GogoAnime, MangaFox, MangaDex, etc.",
+                    text: "Scrapes data from multiple sites including GogoAnime, MangaDex, etc.",
                     bgcolor: "bg-purple-500",
                     textcolor: "text-purple-500",
                 },
@@ -356,7 +333,7 @@ export default defineComponent({
                 {
                     icon: "bolt",
                     headline: "Cross Platform",
-                    text: "Available for Windows, MacOS, Linux and Android! Built on top of Vue, Electron and Capacitor.",
+                    text: "Available for Windows, MacOS, and Linux! Built on top of Vue and Electron.",
                     bgcolor: "bg-blue-400",
                     textcolor: "text-blue-400",
                 },
