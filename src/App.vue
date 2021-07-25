@@ -155,8 +155,7 @@
                                 shadow-lg
                                 transition
                                 duration-300"
-                                :href="src.url" v-for="[platform, src] in Object.entries(
-                                download.platforms)">
+                                :href="src.url" v-for="[platform, src] in Object.entries(download.platforms)">
                         <p>
                             <span class="mr-1">
                                 <Icon :icon="getIcon(platform)" /></span>
@@ -258,7 +257,6 @@ export default defineComponent({
             };
             downloads: DownloadEntity[];
             guidesUrl: string;
-            discordInvite: string;
             isOpenedIndex: number | null;
         } = {
             screenshots: ["desktop"].reduce((pv, cv) => {
