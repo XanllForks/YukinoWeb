@@ -298,7 +298,6 @@ export default defineComponent({
                         `https://github.com/BlaNKtext/YukinoWeb/raw/master/screenshots/${cv}/connections.png`,
                         `https://github.com/BlaNKtext/YukinoWeb/raw/master/screenshots/${cv}/favorites.png`,
                         `https://github.com/BlaNKtext/YukinoWeb/raw/master/screenshots/${cv}/history.png`,
-                        `https://github.com/BlaNKtext/YukinoWeb/raw/master/screenshots/${cv}/watch.png`,
                         `https://github.com/BlaNKtext/YukinoWeb/raw/master/screenshots/${cv}/schedule.png`,
                         `https://github.com/BlaNKtext/YukinoWeb/raw/master/screenshots/${cv}/settings.png`
                     ]
