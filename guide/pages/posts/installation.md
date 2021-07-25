@@ -16,6 +16,12 @@ template: page
 
     -   Windows 7 or newer (both x86 and x64 are supported)
 
+::: info "Soon"
+
+Linux and Mac builds will be coming soon, along with entries here for help.
+
+:::
+
 ## Downloading
 Download the corresponding file from [here](https://yukino.vercel.app#download) and install it after the download is complete.
 

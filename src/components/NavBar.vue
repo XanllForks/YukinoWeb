@@ -82,21 +82,6 @@
                         <Icon icon="book-open" />
                     </span>
                 Guide</a>
-                <a class="
-                        bg-blue-700
-                        hover:bg-blue-800
-                        text-white
-                        px-4
-                        py-1.5
-                        rounded
-                        transition
-                        duration-200"
-                    :href="discordInvite"
-                    target="_blank">
-                    <span class="mr-1">
-                        <Icon :icon="['fab', 'discord']"/>
-                    </span>
-                Discord</a>
             </div>
         </div>
     </div>
@@ -108,11 +93,9 @@ export default defineComponent({
     data() {
         const data: {
             guidesUrl: string;
-            discordInvite: string;
             showNavItems: boolean;
         } = {
             guidesUrl: constants.urls.guides,
-            discordInvite: constants.urls.discord,
             showNavItems: false,
         };
         return data;

@@ -344,7 +344,6 @@ export default defineComponent({
             },
             downloads: [],
             guidesUrl: constants.urls.guides,
-            discordInvite: constants.urls.discord,
             isOpenedIndex: 0,
         };
 
